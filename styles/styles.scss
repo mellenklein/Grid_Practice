@@ -1,0 +1,31 @@
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+@import "../bower_components/neat/app/assets/stylesheets/neat";
+
+body {
+  background: pink;
+}
+
+.container {
+  @include outer-container; /*sets our width*/
+}
+
+main {
+  @include span-columns(9); /*sets the left column to 9 columns*/
+}
+
+aside.sidebar {
+  @include span-columns(3); /*sets the right column to 3 columns*/
+}
+
+
+.posts {
+  article {
+    @include span-columns(3 of 9);
+  figure {
+    margin: 0;
+    img {
+      width: 100%;
+    }
+  }
+ }
+}
