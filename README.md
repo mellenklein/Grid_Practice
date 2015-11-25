@@ -1,5 +1,3 @@
-# Grid_Practice
-
 ## Responsive Site
 This assignment will walk you through creating a fully responsive website from start to finish.
 
