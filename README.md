@@ -1,54 +1,27 @@
-## Responsive Site
-This assignment will walk you through creating a fully responsive website from start to finish.
+# Wednedsay, Oct 14th
 
+## Goals:
+* [Grid Systems](/units/grid-systems)
+* Intro to JS  - if statements - continued, operators, truthy / falsey, ternary operator, arrays and objects
 
-## Objectives
+## Variables challenge:
 
-### Learning Objectives
+```js
+var a = 5;
+var b = “hello”;
+var c = 7;
+var d = “7”
+```
 
-After completing this assignment, you should…
+Write expressions using only operators and the above variables that evaluate to:
 
-* Understand how to implement a responsive website
-* Have experience searching for answers on Google, StackOverflow and MDN. <!-- lol -->
+```
+1. 35
+2. “hello7”
+3. NaN
+4. "75”
+```
 
+## Homework
 
-### Performance Objectives
-
-After completing this assignment, you be able to effectively use
-
-* CSS media queries
-* Advanced CSS properties
-
-## Details
-
-### Deliverables
-
-* A repo containing at least:
-  * `index.html`
-  * `images/background.png`
-  * `styles/style.css`
-
-### Requirements
-
-* No real W3C validation errors
-* The fourth breakpoint should have a fixed with of 980px for the main content.
-* You must use Normalize.css for cross browser consistency. (install with bower)
-* Use Bourbon and Neat (install with bower)
-
-
-## Normal Mode
-Using the breakpoint images below, create the the website using HTML and CSS. For each breakpoint, starting with the first, you *must* have at least one commit of your work. Starting with the mobile breakpoint first will save you a lot of headaches and is required for this assignment.
-
-1. [Breakpoint 1](breakpoint1.png) - 0 to 478px
-2. [Breakpoint 2](breakpoint2.png) - 479px to 767px
-3. [Breakpoint 3](breakpoint3.png) - 767px to 978px
-4. [Breakpoint 4](breakpoint4.png) - 979px and larger
-
-The image used on this website [can be found here](background.jpg).
-
-
-## Notes
-
-For the first three breakpoints, the content (pricing boxes and paragraphs) should stretch to fit the width of the page as it scales. For the fourth breakpoint, the content should max out at 980px and not grow larger than that. Instead it should stay centered on the page.
-
-I recommend that you glance over all of the breakpoints before you write any code to get a feel for how the different elements move around. Structure your HTML in a way that will make it easy to make these adjustments **only using css**. We can't modify our HTML based on page width, only our CSS, so your HTML needs to remain consistent no-matter what the width of the page is.
+* [Responsive Site](https://github.com/theironyard-frontend-nashville/assignments/tree/cohort2/week02/wed)
